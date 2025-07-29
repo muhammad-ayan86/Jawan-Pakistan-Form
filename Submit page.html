@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"/>
+  <title>Form Submitted</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url(jawanpakistan_logo.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      /* background: linear-gradient(135deg, #74ebd5, #ACB6E5); */
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .confirmation-box {
+      background-color: white;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      max-width: 400px;
+      animation: fadeIn 0.8s ease;
+    }
+
+    .confirmation-box h2 {
+      margin: 0 0 10px;
+      color: #333;
+    }
+
+    .confirmation-box p {
+      color: #555;
+      font-size: 16px;
+    }
+
+    .confirmation-box a {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 24px;
+      background-color: #006838;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .confirmation-box a:hover {
+      background-color: #218838;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="confirmation-box">
+   <i style="color: #006838; font-size: 50px;" class="fa-solid fa-check-to-slot"></i>
+    <h2>Thank You!</h2>
+    <p>Your form has been successfully submitted.<br>We'll get back to you soon.</p>
+    <a href="/">Back to Home</a>
+  </div>
+</body>
+</html>
